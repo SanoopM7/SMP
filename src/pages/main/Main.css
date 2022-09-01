@@ -1,0 +1,26 @@
+.body {
+    height: 100vh;
+}
+
+.body_overflow {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main_page {
+    background-color: #fafafa;
+    display: flex;
+    position: relative;
+}
+
+.main-section {
+    width: calc(100% - 3.5rem);
+    height: 100%;
+}
+
+.page_contents {
+    padding: 1rem 1.5rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}

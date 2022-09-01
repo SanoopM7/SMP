@@ -1,0 +1,144 @@
+.main_container {
+    height: 41.75rem;
+    width: 99%;
+    border-radius: 10px;
+    border: solid 1px #ddd;
+    display: flex;
+    padding-left: 1rem;
+    background-color: #fff;
+
+}
+
+.filter_sec {
+    width: 9.5rem;
+    height: 100%;
+    border-right: solid 1px #ddd;
+}
+
+.content_sec {
+    width: calc(100% - 9.5rem);
+    height: 100%;
+    padding: 0 1.5rem;
+    background-color: #fcfcfc;
+
+}
+
+.result_header {
+    height: 2rem;
+    width: 100%;
+    font-family: "Exo 2";
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #31303e;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_filters_container {
+    margin-right: 1rem;
+}
+
+.search_filter_head {
+    font-family: "Exo 2";
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #31303e;
+    display: flex;
+    margin-bottom: 0.6rem;
+    justify-content: space-between;
+}
+
+.icon_refresh {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+
+.search_filter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.Endpoint_substring {
+    margin: 3px;
+    font-family: "Exo 2";
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(49, 48, 62, 0.5);
+}
+
+.go_dashboard {
+    font-family: "Exo 2";
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #e20074;
+    cursor: pointer;
+}
+
+.result_tab_contnr {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.result_tab {
+    display: flex;
+    align-items: center;
+    font-family: Exo2;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(49, 57, 77, 0.4);
+    padding-bottom: 4px;
+}
+
+.selected_tab {
+    color: #31303e;
+    border-bottom: 4px solid #e20074;
+}
+
+.top_result {
+    font-family: "Exo 2";
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #31303e;
+    margin-bottom: 7px;
+
+}
+
+.result_card {
+    width: 100%;
+    height: 4rem;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-left: 0.7rem;
+    margin-bottom: 7px;
+    cursor: pointer;
+}
+
+.result_card_tittle {
+    font-family: "Exo 2";
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+    color: #31303e;
+}
+
+.result_card_dtils_ctnr {
+    display: flex;
+    gap: 1rem;
+}
+
+.card_dtils_tittle {
+    font-family: "Exo 2";
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: #5a5965;
+}
+
+.card_dtils_content {
+    font-weight: 600;
+    color: #31303e;
+}

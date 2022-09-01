@@ -1,0 +1,80 @@
+.search_result_modal_container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.modal_background {
+    width: 60%;
+    opacity: 0.2;
+    background-color: #000;
+}
+
+.search_result_modal {
+    height: 100%;
+    width: 40%;
+    background-color: #fff;
+    position: relative;
+    box-shadow: -8px 0 16px 0 rgb(0 0 0 / 16%);
+}
+
+.modal_head {
+    font-family: "Exo 2";
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #31303e;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.modal_content {
+    padding: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.modal_btn {
+    background-color: #e20074;
+    width: 94%;
+    height: 2rem;
+    border-radius: 1.25rem;
+    font-family: "Exo 2";
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1rem;
+}
+
+.close_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+.modal_details {
+    display: grid;
+    width: 100%;
+    height: 18rem;
+    grid-template-columns: 1fr 4fr;
+}
+
+.details_label {
+    font-family: "Exo 2";
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(49, 48, 62, 0.8);
+}
+
+.details_value {
+    font-family: "Exo 2";
+    font-size: 12px;
+    font-weight: 600;
+    color: #31303e;
+}
