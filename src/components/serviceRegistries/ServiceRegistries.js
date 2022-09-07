@@ -3,109 +3,11 @@ import DropDownSelect from "../dropDownSelect/DropDownSelect";
 import "./ServiceRegistries.css";
 import iconExpand from "../../assets/icon-expand.png";
 import upDown from "../../assets/up_down.png";
+import data from "../../APIres.json";
 
 function ServiceRegistries() {
-  let theadData = ["Group ID", "Group", "Assets", "Endpoint", "Environments"];
-  let tbodyData = [
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-    {
-      GroupId: "APM0202304",
-      Group: "account managment apps",
-      Assets: "3",
-      Endpoint: "21",
-      Environments: "8",
-    },
-  ];
+  let theadData = data.table_data.theadData;
+  let tbodyData = data.table_data.tbodyData;
   return (
     <div className="main_section">
       <div className="register_sec">

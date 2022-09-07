@@ -11,6 +11,7 @@
     height: 14.375rem;
     padding: 0 1rem 0.5rem 1rem;
     display: flex;
+
 }
 
 .icon_min_exp {
@@ -188,4 +189,68 @@
     font-size: 10px;
     font-weight: 500;
     color: #ffff;
+}
+
+.donet_graph {
+    position: relative;
+}
+
+.total_endpoint_types_count {
+    position: absolute;
+    top: 33%;
+    left: 32.7%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Exo 2";
+    font-size: 20px;
+    font-weight: 600;
+    color: #31303e;
+}
+
+.total_endpoint_types_label {
+    font-family: "Exo 2";
+    font-size: 12px;
+    color: #5a5965;
+}
+
+.sec_2_content {
+    height: calc(100% - 0.875rem);
+    width: 100%;
+    position: relative;
+}
+
+.legend_carousel {
+    width: 90%;
+    height: 2.813rem;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    margin-left: 10px;
+}
+
+.pie_chart_legend {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.donet_legendColor {
+    height: 0.75rem;
+    width: 0.75rem;
+    border-radius: 2px;
+    background-color: #0589ce;
+}
+
+.donet_legend_type {
+    font-family: "Exo 2";
+    font-size: 12px;
+    color: #5a5965;
+}
+
+.donet_legend_count {
+    font-size: 15px;
+    font-weight: 600;
+    color: #31303e;
 }

@@ -7,17 +7,28 @@ import "./Main.css";
 import SearchResult from "../../components/searchResult/SearchResult";
 import SearchResultModal from "../../components/searchResultModal/SearchResultModal";
 import AssetDetailsModal from "../../components/assetDetailsModal/AssetDetailsModal";
+import GroupDetailsModal from "../../components/groupDetailsModal/GroupDetailsModal";
 function Main() {
   const [searchResult, setSearchResult] = useState(false);
   const [searchResultModal, setSearchResultModal] = useState(false);
+  const [groupModal, setGroupModal] = useState(false);
+
   const [AssetModal, setassetModal] = useState(false);
 
   return (
-    <div className={searchResultModal || AssetModal ? "body_overflow" : "body"}>
+    <div
+      className={
+        searchResultModal || AssetModal || groupModal ? "body_overflow" : "body"
+      }
+    >
       <div className="main_page">
         <SideTab />
         <div className="main-section">
-          <Header open={setSearchResult} modalOpen={setassetModal} />
+          <Header
+            open={setSearchResult}
+            modalOpen1={setassetModal}
+            modalOpen2={setGroupModal}
+          />
           <div className="page_contents">
             {!searchResult ? (
               <>
@@ -25,10 +36,13 @@ function Main() {
                 <ServiceRegistries />
               </>
             ) : (
-              <SearchResult
-                open={setSearchResult}
-                modalOpen={setSearchResultModal}
-              />
+              <>
+                <SearchResult
+                  open={setSearchResult}
+                  modalOpen={setSearchResultModal}
+                />
+                {console.log("blahh")}
+              </>
             )}
           </div>
         </div>
@@ -36,6 +50,7 @@ function Main() {
           <SearchResultModal modalOpen={setSearchResultModal} />
         )}
         {AssetModal && <AssetDetailsModal modalOpen={setassetModal} />}
+        {groupModal && <GroupDetailsModal modalOpen={setGroupModal} />}
       </div>
     </div>
   );

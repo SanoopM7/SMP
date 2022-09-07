@@ -1,0 +1,535 @@
+ {
+    "success": "true",
+  
+    "message": "",
+
+    "table_data":{
+      "theadData" : ["Group ID", "Group", "Assets", "Endpoint", "Environments"],
+      "tbodyData" : [{
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    },
+    {
+      "GroupId": "APM0202304",
+      "Group": "account managment apps",
+      "Assets": "3",
+      "Endpoint": "21",
+      "Environments": "8"
+    }
+  ]
+  },
+  
+    "smp_data": {
+  
+      "Endpoints": 29127,
+  
+      "Assets": 4302,
+  
+      "dependencies": 6225,
+  
+      "healthy_Endpoints": 1849,
+  
+      "unhealthy_Endpoints": 29127,
+  
+      "Groups": 359,
+  
+      "Endpoint_types": [
+  
+        {
+  
+          "type": "",
+  
+          "count": 6567
+  
+        },
+  
+        {
+  
+          "type": "database",
+  
+          "count": 441
+  
+        },
+  
+        {
+  
+          "type": "eventhandler",
+  
+          "count": 410
+  
+        },
+  
+        {
+  
+          "type": "ipv4",
+  
+          "count": 43
+  
+        },
+  
+        {
+  
+          "type": "other",
+  
+          "count": 14
+  
+        },
+  
+        {
+  
+          "type": "queue",
+  
+          "count": 1091
+  
+        },
+  
+        {
+  
+          "type": "queue_platform",
+  
+          "count": 18
+  
+        },
+  
+        {
+  
+          "type": "rest",
+  
+          "count": 16778
+  
+        },
+  
+        {
+  
+          "type": "soap",
+  
+          "count": 3351
+  
+        },
+  
+        {
+  
+          "type": "tuxedo",
+  
+          "count": 12
+  
+        },
+  
+        {
+  
+          "type": "ui",
+  
+          "count": 402
+  
+        }
+  
+      ],
+  
+      "onboarding": {
+  
+        "catalog_onboarding": [
+  
+          {
+  
+            "month": "Aug",
+  
+            "percentage": "32.2"
+  
+          },
+  
+          {
+  
+            "month": "Jul",
+  
+            "percentage": "32.2"
+  
+          },
+  
+          {
+  
+            "month": "Jun",
+  
+            "percentage": "32.2"
+  
+          },
+  
+          {
+  
+            "month": "May",
+  
+            "percentage": "32.2"
+  
+          },
+  
+          {
+  
+            "month": "Apr",
+  
+            "percentage": "32.3"
+  
+          },
+  
+          {
+  
+            "month": "Mar",
+  
+            "percentage": "32.5"
+  
+          }
+  
+        ],
+  
+        "registry_onboarding": [
+  
+          {
+  
+            "month": "Aug",
+  
+            "percentage": "71.8"
+  
+          },
+  
+          {
+  
+            "month": "Jul",
+  
+            "percentage": "71.6"
+  
+          },
+  
+          {
+  
+            "month": "Jun",
+  
+            "percentage": "71.6"
+  
+          },
+  
+          {
+  
+            "month": "May",
+  
+            "percentage": "71.6"
+  
+          },
+  
+          {
+  
+            "month": "Apr",
+  
+            "percentage": "72.0"
+  
+          },
+  
+          {
+  
+            "month": "Mar",
+  
+            "percentage": "72.6"
+  
+          }
+  
+        ]
+  
+      },
+  
+      "registry_density": [
+  
+        {
+  
+          "environment": "dlab01",
+  
+          "count": 1414
+  
+        },
+  
+        {
+  
+          "environment": "dlab02",
+  
+          "count": 1223
+  
+        },
+  
+        {
+  
+          "environment": "dlab03",
+  
+          "count": 611
+  
+        },
+  
+        {
+  
+          "environment": "ilab01",
+  
+          "count": 612
+  
+        },
+  
+        {
+  
+          "environment": "ilab02",
+  
+          "count": 1399
+  
+        },
+  
+        {
+  
+          "environment": "ilab03",
+  
+          "count": 222
+  
+        },
+  
+        {
+  
+          "environment": "plab01",
+  
+          "count": 2610
+  
+        },
+  
+        {
+  
+          "environment": "prod",
+  
+          "count": 1265
+  
+        },
+  
+        {
+  
+          "environment": "qlab01",
+  
+          "count": 3202
+  
+        },
+  
+        {
+  
+          "environment": "qlab02",
+  
+          "count": 3271
+  
+        },
+  
+        {
+  
+          "environment": "qlab03",
+  
+          "count": 3215
+  
+        },
+  
+        {
+  
+          "environment": "qlab04",
+  
+          "count": 30
+  
+        },
+  
+        {
+  
+          "environment": "qlab06",
+  
+          "count": 2265
+  
+        },
+  
+        {
+  
+          "environment": "qlab07",
+  
+          "count": 2736
+  
+        }
+  
+      ],
+  
+      "dashboard_labels": [
+  
+        {
+  
+          "field": "Endpoints",
+  
+          "label": "Endpoints"
+  
+        },
+  
+        {
+  
+          "field": "Assets",
+  
+          "label": "Assets"
+  
+        },
+  
+        {
+  
+          "field": "dependencies",
+  
+          "label": "Dependencies"
+  
+        },
+  
+        {
+  
+          "field": "healthy_Endpoints",
+  
+          "label": "Healthy Endpoints"
+  
+        },
+  
+        {
+  
+          "field": "unhealthy_Endpoints",
+  
+          "label": "Unhealthy Endpoints"
+  
+        },
+  
+        {
+  
+          "field": "Groups",
+  
+          "label": "Unique Groups"
+  
+        },
+  
+        {
+  
+          "field": "Endpoint_types",
+  
+          "label": "Endpoint Types"
+  
+        },
+  
+        {
+  
+          "field": "onboarding",
+  
+          "label": "Onboarding"
+  
+        },
+  
+        {
+  
+          "field": "catalog_onboarding",
+  
+          "label": "Catalog"
+  
+        },
+  
+        {
+  
+          "field": "registry_onboarding",
+  
+          "label": "Registry"
+  
+        },
+  
+        {
+  
+          "field": "registry_density",
+  
+          "label": "App Density by Environments"
+  
+        }
+  
+      ]
+  
+    },
+  
+    "elapsed": "0.7331242561340332"
+  
+  }

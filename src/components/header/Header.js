@@ -176,10 +176,17 @@ function Header(props) {
             alt="Logo"
             className="chevron_down"
             onClick={() => {
-              props.modalOpen(true);
+              props.modalOpen1(true);
             }}
           />
-          <img src={userIcon} alt="Logo" className="user_icon" />
+          <img
+            src={userIcon}
+            alt="Logo"
+            className="user_icon"
+            onClick={() => {
+              props.modalOpen2(true);
+            }}
+          />
         </div>
       </div>
     </div>

@@ -4,6 +4,7 @@ import DropDownSelect from "../dropDownSelect/DropDownSelect";
 import "./SearchResult.css";
 
 function SearchResult(props) {
+  console.log(props);
   return (
     <div className="main_container">
       <div className="filter_sec">
